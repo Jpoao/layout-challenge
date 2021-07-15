@@ -1,0 +1,48 @@
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("/src/assets/images/HamburguerButton.svg");
+}
+  
+.custom-toggler.navbar-toggler {
+    border: none;
+    color: #F78B00;
+  }  
+
+.nav-logo-text, .nav-logo-text:hover {
+    font-weight: bold;
+    font-size: 24px;
+    padding: 28px 117px 20px 21px;
+
+}
+
+.main-menu {
+    display: flex;
+    font-size: 18px;
+    width: 390px;
+    justify-content: space-between;
+}
+
+.main-nav {
+    height: 70px;
+}
+
+.main-menu a {
+    font-weight: bold;
+}
+
+.main-menu a.active{
+    font-weight: bold;
+}
+
+@media (min-width: 992px){
+    .navbar-collapse{
+        justify-content: flex-end;
+        margin-right: 40px;
+    }
+}
+
+@media (min-width: 1200px){
+    .navbar-collapse{
+        justify-content: center;
+        margin-right: 300px;
+    }
+}
