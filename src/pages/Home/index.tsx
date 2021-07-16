@@ -1,5 +1,6 @@
 import "./styles.css";
 import car from "assets/images/homeCar.png";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -12,7 +13,9 @@ const Home = () => {
         </p>
       </div>
       <div className="home-botton-container">
-        <button>VER CATÁLOGO</button>
+        <button>
+          <Link to="/catalog">VER CATÁLOGO</Link>
+        </button>
         <p>Comece agora a navegar</p>
       </div>
     </div>

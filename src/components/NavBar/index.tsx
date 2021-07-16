@@ -1,15 +1,16 @@
 import { NavLink, Link } from "react-router-dom";
 import "./styles.css";
 
+import "bootstrap/js/src/collapse.js";
+
+
 const NavBar = () => {
   return (
-    <nav className="navbar navbar-expand-md navbar-dark bg-primary main-nav">
+    <nav className="navbar navbar-expand-md navbar-light bg-primary main-nav">
       <div className="container-fluid">
-        <div className = "nav-logo">
           <Link to="/" className="navbar-logo-text">
             <h4>Carros Top</h4>
           </Link>
-        </div>
 
         <button
           className="navbar-toggler custom-toggler"
