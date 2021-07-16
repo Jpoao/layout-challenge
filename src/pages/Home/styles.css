@@ -2,13 +2,14 @@
     padding: 20px 11px;
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 .home-top-container{
-    text-align: center;
     border-radius: 10px;
     background-color: #00285F;
     height: 350px;
+    margin-top: 50px;
 }
 
 .home-top-container img {
@@ -25,11 +26,9 @@
 } 
 
 .home-top-container p {  
-    font-style: italic;
     color: #fff;
-    font-size: 13px;
-    margin-top: 10px;
-    padding: 0 19px;
+    font-size: 12px;
+    margin: 10px 48px;
 }
 
 .home-botton-container {
@@ -49,7 +48,7 @@
     background-color: #00285F;
     color: #fff;
     border-radius: 5px;
-    size: 14px;
+    font-size: 14px;
     width: 174px;
     height: 40px;
 }

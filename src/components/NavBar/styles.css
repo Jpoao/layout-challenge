@@ -22,6 +22,8 @@
 }
 
 .main-nav {
+    position: absolute;
+    width: 100%;
     height: auto;
 }
 
@@ -31,8 +33,8 @@
 
 @media (min-width: 576px){
 
-  .nav-logo{
-      padding-left: 88px;
+  .navbar-logo-text h4, li{
+      padding-left: 80px;
   }
 
 }
