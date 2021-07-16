@@ -5,9 +5,11 @@ const NavBar = () => {
   return (
     <nav className="navbar navbar-expand-md navbar-dark bg-primary main-nav">
       <div className="container-fluid">
-        <Link to="/" className="navbar-logo-text">
-          <h4>Carros Top</h4>
-        </Link>
+        <div className = "nav-logo">
+          <Link to="/" className="navbar-logo-text">
+            <h4>Carros Top</h4>
+          </Link>
+        </div>
 
         <button
           className="navbar-toggler custom-toggler"
@@ -25,12 +27,12 @@ const NavBar = () => {
           <ul className="navbar-nav offset-md-2 main-menu">
             <li>
               <NavLink to="/" activeClassName="active" exact>
-                HOME
+                Home
               </NavLink>
             </li>
             <li>
               <NavLink to="/catalog" activeClassName="active">
-                  CATÁLOGO
+                Catálogo
               </NavLink>
             </li>
           </ul>

@@ -18,31 +18,35 @@
     display: flex;
     font-size: 18px;
     width: 390px;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .main-nav {
     height: 70px;
 }
 
-.main-menu a {
-    font-weight: bold;
-}
-
 .main-menu a.active{
     font-weight: bold;
 }
 
-@media (min-width: 992px){
-    .navbar-collapse{
+@media (min-width: 576px){
+
+  .nav-logo{
+      padding-left: 88px;
+  }
+
+}
+
+@media (min-width: 768px){
+
+    .navbar-collapse {
         justify-content: flex-end;
-        margin-right: 40px;
+        padding-left: 170px;
     }
 }
 
-@media (min-width: 1200px){
+@media (min-width: 992px){
     .navbar-collapse{
-        justify-content: center;
-        margin-right: 300px;
+        padding-right: 203px;
     }
 }
