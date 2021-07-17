@@ -24,7 +24,7 @@
 .main-nav {
     position: absolute;
     width: 100%;
-    height: auto;
+    height: 60px;
 }
 
 .main-menu a.active{
@@ -39,16 +39,3 @@
 
 }
 
-@media (min-width: 768px){
-
-    .navbar-collapse {
-        justify-content: flex-end;
-        padding-left: 170px;
-    }
-}
-
-@media (min-width: 992px){
-    .navbar-collapse{
-        padding-right: 203px;
-    }
-}

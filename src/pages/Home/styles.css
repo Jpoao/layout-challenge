@@ -28,15 +28,20 @@
 .home-top-container p {  
     color: #fff;
     font-size: 12px;
-    margin: 10px 48px;
+    width: 251px;
+    height: 32px;
+    margin: auto;
 }
 
 .home-botton-container {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
     border-radius: 10px;
-    background-color: #EDEDED;
-    padding: 27px 37px;
-    margin-top: 21px;
+    background-color: #EDED;
+    justify-content: center;
+    align-items: center;
+    height: 123px;
+    margin-top: 20px;
 }
 
 .home-botton-container p{
@@ -51,4 +56,31 @@
     font-size: 14px;
     width: 174px;
     height: 40px;
+}
+
+@media (min-width: 576px) {
+    .home-top-container h1 {
+        font-size: 36px;
+    } 
+    
+    .home-top-container p {  
+        width: 420px;
+        height: 42px;
+        font-size: 18px;
+    }
+
+    .home-botton-container {
+        flex-direction: row;
+    }
+
+    .home-botton-container p{
+        margin: 10px 10px;
+    }
+}
+
+@media (min-width: 768px) {
+    .home-botton-container { 
+        justify-content: start;
+        padding-left: 85px;
+    }
 }
