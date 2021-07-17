@@ -59,6 +59,13 @@
 }
 
 @media (min-width: 576px) {
+
+    .home-top-container img {
+        width: 333px;
+        height: 199px;
+        margin-top: 10px;
+    }
+
     .home-top-container h1 {
         font-size: 36px;
     } 
@@ -79,8 +86,17 @@
 }
 
 @media (min-width: 768px) {
+
+    .home-top-container {
+        height: 475px;
+    }
+
     .home-botton-container { 
         justify-content: start;
         padding-left: 85px;
+    }
+
+    .home-top-container img {
+        margin-top: 79px;
     }
 }
